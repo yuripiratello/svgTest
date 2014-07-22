@@ -10,13 +10,12 @@ $(document).ready(function(){
         setTimeout(function(){
             // caveira.animate({opacity:0},500);
             i.animate({opacity:0},500);
-        },1500)
+        },1400)
     });
     var image=caveira.select("image");
     image.attr({opacity:0});
     setTimeout(function(){
         // caveira.animate({opacity:0},500);
-        image.animate({opacity:1},500);
-        image.animate({opacity:1},500);
-    },1300)
+        image.animate({opacity:1},1500);
+    },700)
 });
